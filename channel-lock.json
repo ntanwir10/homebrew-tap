@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "guardscan.channel-catalog.v1",
+  "source": {
+    "repository": "ntanwir10/GuardScan",
+    "version": "1.1.1-rc.6",
+    "tag": "v1.1.1-rc.6",
+    "commit": "e6646883085294755048525aee7099636f330fb2",
+    "manifestUrl": "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.1-rc.6/release-manifest.json",
+    "manifestSha256": "81243a77488f82077d587fb9aaa70daf7fca79c0e7a4ad802531949b4283902d"
+  },
+  "generator": {
+    "repository": "ntanwir10/GuardScan",
+    "commit": "e6646883085294755048525aee7099636f330fb2"
+  },
+  "files": {
+    "Formula/guardscan.rb": {
+      "sha256": "913aff88ef142880997e7a56bb19b30e43e1b39335d0c6150eca39a4f3746512"
+    },
+    "bucket/guardscan.json": {
+      "sha256": "7576c7c348936746b2629850f23cf07972f303d4e825bc30a1649f6d0931317f"
+    }
+  }
+}
