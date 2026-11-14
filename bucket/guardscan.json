@@ -1,0 +1,13 @@
+{
+  "version": "1.1.1-rc.9",
+  "description": "Privacy-first code review and security scanning CLI",
+  "homepage": "https://guardscancli.vercel.app",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.1-rc.9/guardscan-1.1.1-rc.9-windows-x64.zip",
+      "hash": "657bedb56ca879c99fde20d2b0b8eb1e085bf384e4684e878a467364af2a3e76"
+    }
+  },
+  "bin": "guardscan.exe"
+}
