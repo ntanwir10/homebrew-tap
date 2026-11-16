@@ -4,18 +4,18 @@ class Guardscan < Formula
   homepage "https://guardscancli.vercel.app"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.1/guardscan-1.1.1-darwin-arm64.zip"
-      sha256 "0d1152668535b6bf493fd91357d2a0934b12ecc3b1ee90c87c196b28fbdb49af"
+      url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.2-rc.2/guardscan-1.1.2-rc.2-darwin-arm64.zip"
+      sha256 "482a62af294195e5cbff0e1b574da5c14b25b92c89bde35168f07c54ab074850"
     else
-      url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.1/guardscan-1.1.1-darwin-x64.zip"
-      sha256 "ba4350a36624bde39cf973b678e0c0cf221777c6899d277080ddef8afa1a40be"
+      url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.2-rc.2/guardscan-1.1.2-rc.2-darwin-x64.zip"
+      sha256 "6fd0f8bcb3536d457c96be89c7d94f25560cd74025cbfc24661b7956d49979e6"
     end
   elsif Hardware::CPU.arm?
-    url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.1/guardscan-1.1.1-linux-arm64-glibc.tar.gz"
-    sha256 "3b0714e4446fea1e088325ba3c3c6b5113a0fca9fb09a5fc9fe89b4aff52bc5b"
+    url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.2-rc.2/guardscan-1.1.2-rc.2-linux-arm64-glibc.tar.gz"
+    sha256 "3d0c5ae5c4d94a822295435c86a57ef310ac09d4374ea5218341c25a855c6214"
   else
-    url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.1/guardscan-1.1.1-linux-x64-glibc.tar.gz"
-    sha256 "e4e24d0224917d05bb20e529827963dce37ead8da0d6d2aaa1504ba2ff0c152d"
+    url "https://github.com/ntanwir10/GuardScan/releases/download/v1.1.2-rc.2/guardscan-1.1.2-rc.2-linux-x64-glibc.tar.gz"
+    sha256 "064c9e89fde49372824872a0bf2d70ec89f9c891578579b1eb8462ca4a820035"
   end
   license "MIT"
 
